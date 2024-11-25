@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div
       className={cn(
-        "w-full h-[60px] transition-all ease-linear  flex items-center  justify-between pr-4"
+        "w-full h-[60px] fixed bg-background z-50 transition-all ease-linear  flex items-center  justify-between pr-4"
       )}>
       <div className="h-full flex items-center gap-8">
         <div className=" h-full flex items-center ">
@@ -129,7 +129,36 @@ const Navbar = () => {
             <Menu />
           </SheetTrigger>
           <SheetContent className="md:hidden">
-            <div className="flex flex-col gap-2"></div>
+            <div className=" mt-5">
+            <div className="flex flex-col">
+             <p className="text-lg">Products</p>
+             <div className="pl-3 mt-1 pt-3 pb-3 w-fit border-l-2 flex flex-col gap-4">
+                <p className="hover:underline-offset-2 hover:underline cursor-pointer">   Metaverse</p>
+                <p className="hover:underline-offset-2 hover:underline cursor-pointer">Social Sphere</p>
+                <p className="hover:underline-offset-2 hover:underline cursor-pointer">World Builder</p>
+                <p className="hover:underline-offset-2 hover:underline cursor-pointer">Currency</p>
+                <p className="hover:underline-offset-2 hover:underline cursor-pointer">Marketplace</p>
+             </div>
+             <div className="w-3 border -ml-1"/>
+            </div>
+            <div className="mt-2">
+             <p className="text-lg">Perks</p>
+             <div className="pl-3 mt-1 pt-3 pb-3 w-fit border-l-2 flex flex-col gap-3">
+             <p className="hover:underline-offset-2 hover:underline cursor-pointer">A World of Creation</p>
+             <p className="hover:underline-offset-2 hover:underline cursor-pointer">Collaborative Experiences</p>
+             <p className="hover:underline-offset-2 hover:underline cursor-pointer">Live the Moment</p>
+             <p className="hover:underline-offset-2 hover:underline cursor-pointer">Custom Events</p>
+             </div>
+             <div className="w-3 border -ml-1"/>
+            </div>
+           </div>
+
+           <div className=" flex gap-4 mt-5">
+        <ModeToggle />
+        <Button className="rounded-[4px] flex items-center ">Login</Button>
+      
+
+           </div>
           </SheetContent>
         </Sheet>
       </div>
