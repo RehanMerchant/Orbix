@@ -1,7 +1,7 @@
 const Section1 = () => {
   return (
     <div className="w-full lg:px-20 lg:py-10 md:px-10 px-5">
-      <p className="text-3xl">What we Offer?</p>
+      <p className="text-3xl">Features</p>
       <div className="lg:px-10 lg:py-10 md:px-6 py-6   lg:flex  justify-between items-center gap-4">
         <div className="flex flex-col gap-2">
           <p className="text-2xl ">Your Creative Playground</p>
