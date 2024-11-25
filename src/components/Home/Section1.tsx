@@ -4,7 +4,7 @@ const Section1 = () => {
       <p className="text-3xl">Features</p>
       <div className="lg:px-10 lg:py-10 md:px-6 py-6   lg:flex  justify-between items-center gap-4">
         <div className="flex flex-col gap-2">
-          <p className="text-2xl ">Your Creative Playground</p>
+          <p className="text-2xl ">Creative Playground</p>
           <p className="text-lg mt-2">Create Your World & Maps</p>
           <p>
             Use drag-and-drop tools to build custom spaces, from lush forests to
