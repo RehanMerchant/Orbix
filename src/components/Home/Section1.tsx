@@ -36,7 +36,7 @@ const Section1 = () => {
           <p>
           Host private hangouts or public events in your virtual spaces.
           </p>
-          <p>Social features like group chats, voice calls, and emojis for real-time engagement..</p>
+          <p>Social features like group chats, voice calls for real-time engagement..</p>
         </div>
 
         <div
