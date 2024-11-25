@@ -6,7 +6,8 @@ const HeroSection = () => {
   return (
   
 
-<section className=" bg-background md:pr-10 pt-[60px]  w-full justify-between flex md:items-center h-[calc(100svh-60px)]">
+<section className=" bg-background md:pr-10 pt-[60px]  w-full justify-between flex md:items-center 
+md:h-[calc(100vh)] h-[calc(100svh)]  ">
 
 <div className="lg:w-fit w-full md:pl-10 lg:pr-5 lg:pl-10 md:-mt-20 mt-32">
   <p className="md:text-7xl text-6xl font-light md:justify-start w-full justify-center flex">
