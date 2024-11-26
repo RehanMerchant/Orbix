@@ -55,6 +55,10 @@ const Navbar = () => {
                             World Builder
                           </button>
                           <button className="w-full py-1 hover:bg-muted rounded-sm bg-background">
+                            Asset Builder
+                          </button>
+        
+                          <button className="w-full py-1 hover:bg-muted rounded-sm bg-background">
                             Currency
                           </button>
                           <button className="w-full py-1 hover:bg-muted rounded-sm bg-background">
@@ -67,7 +71,7 @@ const Navbar = () => {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger>Perks</NavigationMenuTrigger>
+                  <NavigationMenuTrigger>Features</NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <NavigationMenuLink>
                       <div className="w-[500px] h-auto pb-3 p-2">
@@ -142,7 +146,7 @@ const Navbar = () => {
              <div className="w-3 border -ml-1"/>
             </div>
             <div className="mt-2">
-             <p className="text-lg">Perks</p>
+             <p className="text-lg">Features</p>
              <div className="pl-3 mt-1 pt-3 pb-3 w-fit border-l-2 flex flex-col gap-3">
              <p className="hover:underline-offset-2 hover:underline cursor-pointer">A World of Creation</p>
              <p className="hover:underline-offset-2 hover:underline cursor-pointer">Collaborative Experiences</p>
