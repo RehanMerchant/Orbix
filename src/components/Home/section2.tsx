@@ -5,7 +5,7 @@ const Section2 = () => {
   return (
     <>
   <div className="w-full  lg:px-10 px-4 md:px-10 mt-14">
-        <p className="text-3xl ">How it Works?</p>
+        <p className="text-3xl ">Actions</p>
     
         <div className="py-6 flex flex-col gap-4">
           <div className="w-full h-suto lg:px-10  lg:flex gap-2 justify-between items-center p-2">
