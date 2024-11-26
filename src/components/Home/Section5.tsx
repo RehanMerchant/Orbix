@@ -6,7 +6,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Button } from "../ui/button";
 import { MdKeyboardArrowRight } from "react-icons/md";
 const Section5 = () => {
   return (
