@@ -1,7 +1,6 @@
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 import { MdOutlineDone } from "react-icons/md";
-import { RxCross2 } from "react-icons/rx";
 import { Button } from "../ui/button";
 const PricingSection = () => {
   const [plan, setplan] = useState("community");
