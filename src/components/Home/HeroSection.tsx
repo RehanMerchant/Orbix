@@ -2,7 +2,9 @@ import { Button } from "../ui/button";
 import { FaShoppingBag } from "react-icons/fa";
 import { PiPlayFill } from "react-icons/pi";
 import { RiExpandDiagonalLine } from "react-icons/ri";
+import { useNavigate } from "react-router-dom";
 const HeroSection = () => {
+  const navigate = useNavigate();
   return (
   
 
@@ -18,7 +20,7 @@ md:h-[calc(100vh)] h-[calc(100svh)]  ">
   live the moment with Orbix.
   </p>
   <div className="flex  gap-2 w-full md:justify-start justify-center mt-4 ">
-<Button className="rounded-[4px] px-6 py-2 flex gap-2">
+<Button onClick={()=>{navigate('/explore')}} className="rounded-[4px] px-6 py-2 flex gap-2">
  <PiPlayFill/> Explore
 </Button>
 <Button className="rounded-[4px] px-6 py-2 flex gap-2">

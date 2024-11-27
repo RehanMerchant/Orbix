@@ -2,7 +2,11 @@ import { FaYoutube } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
+
+
 const Footer = () => {
+const navigate = useNavigate();
   return (
     <div className="w-full border-t-2 mt-10 ">
         
@@ -34,7 +38,7 @@ const Footer = () => {
 
       <div className="text-sm md:text-base flex flex-col gap-1">
         <p className="font-medium">Quick Links</p>
-        <p className="font-light hover:underline cursor-pointer">Explore</p>
+        <p onClick={()=>{navigate('/explore')}}  className="font-light hover:underline cursor-pointer">Explore</p>
         <p className="font-light hover:underline cursor-pointer">About</p>
         <p className="font-light hover:underline cursor-pointer">Pricing Plans</p>
         <p className="font-light hover:underline cursor-pointer">FAQ</p>
