@@ -8,7 +8,7 @@ const Section1 = () => {
           
    <div className=' md:absolute w-full    md:-mt-[100px]'>
     <div className='md:bg-muted/70 w-fit'>
-    <p className='text-3xl flex flex-col gap-2 font-bold font-mono  w-fit md:px-10 px-6 md:rounded-sm md:ml-10 md:py-6 py-10'>
+    <p className='md:text-3xl text-2xl flex flex-col gap-2 font-bold font-mono  w-fit md:px-10 px-6 md:rounded-sm md:ml-10 md:py-6 py-10'>
       Orbix Alpha Season 4
       <span className='text-base font-light max-w-[400px]'>
    Event is currently Live, Users with Standard Pass or Above are allowed to Join.
